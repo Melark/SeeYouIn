@@ -1,0 +1,8 @@
+B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.iOS\obj\iPhoneSimulator\Debug\optimized\
+B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.iOS\obj\iPhoneSimulator\Debug\SeeYouIn.iOS.csprojAssemblyReference.cache
+B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.iOS\obj\iPhoneSimulator\Debug\SeeYouIn.iOS.csproj.CoreCompileInputs.cache
