@@ -125,8 +125,11 @@ class MonoPackageManager_Resources {
 		"Microsoft.Extensions.Logging.dll",
 		"Microsoft.Extensions.Options.dll",
 		"Microsoft.Extensions.Primitives.dll",
+		"Plugin.Notifications.Abstractions.dll",
+		"Plugin.Notifications.dll",
 		"Remotion.Linq.dll",
 		"SeeYouIn.dll",
+		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_green.dll",
 		"SQLitePCLRaw.batteries_v2.dll",
 		"SQLitePCLRaw.core.dll",
@@ -166,6 +169,7 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"XamarinShortcutBadger.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

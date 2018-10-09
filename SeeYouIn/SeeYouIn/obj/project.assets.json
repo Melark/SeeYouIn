@@ -251,6 +251,20 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Plugin.Notifications/4.0.2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.0/Plugin.Notifications.Abstractions.dll": {},
+          "lib/netstandard1.0/Plugin.Notifications.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Plugin.Notifications.Abstractions.dll": {},
+          "lib/netstandard1.0/Plugin.Notifications.dll": {}
+        }
+      },
       "Remotion.Linq/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -1111,6 +1125,37 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "Plugin.Notifications/4.0.2": {
+      "sha512": "rRGqfKqK8yojBjG80FISrLaNsSnJoq+XjoQdXFbVqLlMqP7hee3HvzeetDuVJQgKosO55MYfWu5LURd86yU6zA==",
+      "type": "package",
+      "path": "plugin.notifications/4.0.2",
+      "files": [
+        "lib/MonoAndroid10/Plugin.Notifications.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Notifications.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Notifications.dll",
+        "lib/MonoAndroid10/Plugin.Notifications.pdb",
+        "lib/Xamarin.Mac20/Plugin.Notifications.Abstractions.dll",
+        "lib/Xamarin.Mac20/Plugin.Notifications.Abstractions.pdb",
+        "lib/Xamarin.Mac20/Plugin.Notifications.dll",
+        "lib/Xamarin.iOS10/Plugin.Notifications.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Notifications.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.Notifications.dll",
+        "lib/Xamarin.iOS10/Plugin.Notifications.dll.mdb",
+        "lib/Xamarin.iOS10/Plugin.Notifications.pdb",
+        "lib/netstandard1.0/Plugin.Notifications.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.Notifications.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.Notifications.deps.json",
+        "lib/netstandard1.0/Plugin.Notifications.dll",
+        "lib/netstandard1.0/Plugin.Notifications.pdb",
+        "lib/uap10/Plugin.Notifications.Abstractions.dll",
+        "lib/uap10/Plugin.Notifications.Abstractions.pdb",
+        "lib/uap10/Plugin.Notifications.dll",
+        "lib/uap10/Plugin.Notifications.pdb",
+        "lib/uap10/Plugin.Notifications.pri",
+        "plugin.notifications.4.0.2.nupkg.sha512",
+        "plugin.notifications.nuspec"
       ]
     },
     "Remotion.Linq/2.2.0": {
@@ -3144,6 +3189,7 @@
     ".NETStandard,Version=v2.0": [
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.1.3",
       "NETStandard.Library >= 2.0.3",
+      "Plugin.Notifications >= 4.0.2",
       "Unity >= 5.8.11",
       "Xamarin.Forms >= 3.1.0.697729"
     ]
@@ -3198,6 +3244,10 @@
             "target": "Package",
             "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "Plugin.Notifications": {
+            "target": "Package",
+            "version": "[4.0.2, )"
           },
           "Unity": {
             "target": "Package",

@@ -16,8 +16,11 @@ Microsoft.Extensions.Logging.Abstractions
 Microsoft.Extensions.Logging
 Microsoft.Extensions.Options
 Microsoft.Extensions.Primitives
+Plugin.Notifications.Abstractions
+Plugin.Notifications
 Remotion.Linq
 SeeYouIn
+SQLite-net
 SQLitePCLRaw.batteries_green
 SQLitePCLRaw.batteries_v2
 SQLitePCLRaw.core
@@ -58,12 +61,13 @@ Xamarin.Forms.Core
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
+XamarinShortcutBadger
 netstandard
 System.ComponentModel.Annotations
+System.Threading.Tasks
+System.Diagnostics.Debug
 System.Collections
 System.Linq.Queryable
-System.Diagnostics.Debug
 System.Reflection.Extensions
 System.Threading
 System.Resources.ResourceManager
-System.Threading.Tasks

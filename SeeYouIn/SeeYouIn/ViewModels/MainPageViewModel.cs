@@ -1,8 +1,10 @@
-﻿using SeeYouIn.DI;
+﻿using Plugin.Notifications;
+using SeeYouIn.DI;
 using SeeYouIn.Interfaces.LocalDB;
 using SeeYouIn.Models;
 using SeeYouIn.ViewModels.Base;
 using SeeYouIn.Views;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
@@ -32,6 +34,15 @@ namespace SeeYouIn.ViewModels
         {
             ReminderService = Injector.Container.Resolve<IReminderService>();
             InitializeCommand.Execute(null);
+            TestNotifications();
+        }
+
+        private  void TestNotifications() {
+
+            for (int i = 0; i < 365; i++)
+            {
+                
+            }
         }
 
         private async Task PopulateRemindersAsync()

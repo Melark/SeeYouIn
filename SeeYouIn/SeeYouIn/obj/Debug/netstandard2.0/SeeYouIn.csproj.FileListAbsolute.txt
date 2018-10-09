@@ -8,6 +8,6 @@ B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn\bin\Debug\netstandard2.0\SeeYouIn.pdb
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn\obj\Debug\netstandard2.0\SeeYouIn.dll
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn\obj\Debug\netstandard2.0\SeeYouIn.pdb
-B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn\obj\Debug\netstandard2.0\XamlC.stamp
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn\obj\Debug\netstandard2.0\SeeYouIn.csprojAssemblyReference.cache
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn\obj\Debug\netstandard2.0\Views\AddReminderPage.xaml.g.cs
+B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn\obj\Debug\netstandard2.0\XamlC.stamp

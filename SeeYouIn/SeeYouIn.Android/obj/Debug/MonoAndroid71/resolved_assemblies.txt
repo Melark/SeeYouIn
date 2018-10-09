@@ -20,8 +20,11 @@ B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\asset
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\Microsoft.Extensions.Primitives.dll
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\Mono.Android.dll
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\mscorlib.dll
+B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\Plugin.Notifications.Abstractions.dll
+B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\Plugin.Notifications.dll
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\Remotion.Linq.dll
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\SeeYouIn.dll
+B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\SQLite-net.dll
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\SQLitePCLRaw.batteries_green.dll
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\SQLitePCLRaw.batteries_v2.dll
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\SQLitePCLRaw.core.dll
@@ -67,6 +70,7 @@ B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\asset
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\Xamarin.Forms.Platform.Android.dll
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\Xamarin.Forms.Platform.dll
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\Xamarin.Forms.Xaml.dll
+B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\XamarinShortcutBadger.dll
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\netstandard.dll
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\System.Data.dll
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\System.Numerics.dll
@@ -99,13 +103,14 @@ B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\asset
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\System.Reflection.Extensions.dll
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\System.ComponentModel.Annotations.dll
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\System.ComponentModel.DataAnnotations.dll
+B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\System.Threading.Tasks.dll
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\System.Linq.Queryable.dll
+B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\System.Resources.ResourceManager.dll
+B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\System.Globalization.dll
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\System.Security.Cryptography.ProtectedData.dll
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\System.Security.dll
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\Mono.Security.dll
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\System.Diagnostics.Tracing.dll
-B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\System.Resources.ResourceManager.dll
-B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\System.Threading.Tasks.dll
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\System.Numerics.Vectors.dll
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\System.Reflection.Emit.dll
 B:\_Git\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\System.Reflection.Emit.ILGeneration.dll
