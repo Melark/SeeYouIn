@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:SeeYouIn.ViewModels"
+             x:Class="SeeYouIn.Views.Assisting.SettingsPage">
+    <ContentPage.BindingContext>
+        <vm:SettingsViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Remove All Notifications" Command="{Binding RemoveAllNotificationsCommand}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

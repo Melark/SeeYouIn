@@ -3195,23 +3195,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mel4rk\\.nuget\\packages\\": {},
+    "C:\\Users\\marrow\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "B:\\_Git\\SeeYouIn\\SeeYouIn\\SeeYouIn\\SeeYouIn.csproj",
+      "projectUniqueName": "C:\\_GIT\\SeeYouIn\\SeeYouIn\\SeeYouIn\\SeeYouIn.csproj",
       "projectName": "SeeYouIn",
-      "projectPath": "B:\\_Git\\SeeYouIn\\SeeYouIn\\SeeYouIn\\SeeYouIn.csproj",
-      "packagesPath": "C:\\Users\\Mel4rk\\.nuget\\packages\\",
-      "outputPath": "B:\\_Git\\SeeYouIn\\SeeYouIn\\SeeYouIn\\obj\\",
+      "projectPath": "C:\\_GIT\\SeeYouIn\\SeeYouIn\\SeeYouIn\\SeeYouIn.csproj",
+      "packagesPath": "C:\\Users\\marrow\\.nuget\\packages\\",
+      "outputPath": "C:\\_GIT\\SeeYouIn\\SeeYouIn\\SeeYouIn\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Mel4rk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\marrow\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

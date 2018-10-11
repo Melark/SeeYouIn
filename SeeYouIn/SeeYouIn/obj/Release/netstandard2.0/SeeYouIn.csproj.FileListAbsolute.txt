@@ -1,0 +1,17 @@
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn\bin\Release\netstandard2.0\SeeYouIn.deps.json
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn\bin\Release\netstandard2.0\SeeYouIn.dll
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn\bin\Release\netstandard2.0\SeeYouIn.pdb
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn\obj\Release\netstandard2.0\SeeYouIn.csprojAssemblyReference.cache
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn\obj\Release\netstandard2.0\Views\Assisting\AboutPage.xaml.g.cs
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn\obj\Release\netstandard2.0\Views\Assisting\SettingsPage.xaml.g.cs
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn\obj\Release\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn\obj\Release\netstandard2.0\Views\MainPageDetail.xaml.g.cs
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn\obj\Release\netstandard2.0\Views\MainPageMaster.xaml.g.cs
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn\obj\Release\netstandard2.0\Views\Reminders\MyRemindersPage.xaml.g.cs
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn\obj\Release\netstandard2.0\SeeYouIn.csproj.CoreCompileInputs.cache
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn\obj\Release\netstandard2.0\SeeYouIn.AssemblyInfoInputs.cache
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn\obj\Release\netstandard2.0\SeeYouIn.AssemblyInfo.cs
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn\obj\Release\netstandard2.0\XamlC.stamp
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn\obj\Release\netstandard2.0\SeeYouIn.dll
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn\obj\Release\netstandard2.0\SeeYouIn.pdb

@@ -1,20 +1,18 @@
 ﻿using SeeYouIn.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 
 namespace SeeYouIn.Interfaces.LocalDB
 {
-    interface IReminderService
-    {
-        Task<List<Reminder>> GetRemindersAsync();
+  public interface IReminderService
+  {
+    Task<ObservableCollection<Reminder>> GetRemindersAsync();
 
-        Task<bool> InsertReminderAsync(Reminder reminder);
+    Task<bool> InsertReminderAsync(Reminder reminder);
 
-        Task<bool> UpdateReminderAsync(Reminder reminder);
+    Task<bool> UpdateReminderAsync(Reminder reminder);
 
-        Task<bool> RemoveReminderAsync(Reminder reminder);
+    Task<bool> RemoveReminderAsync(Reminder reminder);
 
-    }
+  }
 }

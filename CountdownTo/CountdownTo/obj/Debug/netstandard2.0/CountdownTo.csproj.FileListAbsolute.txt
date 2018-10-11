@@ -1,0 +1,16 @@
+C:\_GIT\SeeYouIn\CountdownTo\CountdownTo\bin\Debug\netstandard2.0\CountdownTo.deps.json
+C:\_GIT\SeeYouIn\CountdownTo\CountdownTo\bin\Debug\netstandard2.0\CountdownTo.dll
+C:\_GIT\SeeYouIn\CountdownTo\CountdownTo\bin\Debug\netstandard2.0\CountdownTo.pdb
+C:\_GIT\SeeYouIn\CountdownTo\CountdownTo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\_GIT\SeeYouIn\CountdownTo\CountdownTo\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\_GIT\SeeYouIn\CountdownTo\CountdownTo\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\_GIT\SeeYouIn\CountdownTo\CountdownTo\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\_GIT\SeeYouIn\CountdownTo\CountdownTo\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\_GIT\SeeYouIn\CountdownTo\CountdownTo\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\_GIT\SeeYouIn\CountdownTo\CountdownTo\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\_GIT\SeeYouIn\CountdownTo\CountdownTo\obj\Debug\netstandard2.0\CountdownTo.csproj.CoreCompileInputs.cache
+C:\_GIT\SeeYouIn\CountdownTo\CountdownTo\obj\Debug\netstandard2.0\CountdownTo.AssemblyInfoInputs.cache
+C:\_GIT\SeeYouIn\CountdownTo\CountdownTo\obj\Debug\netstandard2.0\CountdownTo.AssemblyInfo.cs
+C:\_GIT\SeeYouIn\CountdownTo\CountdownTo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\_GIT\SeeYouIn\CountdownTo\CountdownTo\obj\Debug\netstandard2.0\CountdownTo.dll
+C:\_GIT\SeeYouIn\CountdownTo\CountdownTo\obj\Debug\netstandard2.0\CountdownTo.pdb

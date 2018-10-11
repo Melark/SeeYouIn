@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Threading.Tasks;
 
 namespace SeeYouIn.Interfaces.Notifications
 {
-    public class INotificationService
-    {
-    }
+  public interface INotificationService
+  {
+    Task<int> RegisterNotification(Models.Notification notification);
+
+    void CancelAllNotifications();
+
+  }
 }

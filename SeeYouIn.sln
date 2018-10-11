@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeeYouIn.Android", "SeeYouI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeeYouIn.iOS", "SeeYouIn\SeeYouIn.iOS\SeeYouIn.iOS.csproj", "{687ABBA8-2520-4746-933A-08DE7984AEC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeeYouIn", "SeeYouIn\SeeYouIn\SeeYouIn.csproj", "{480B3B80-1B97-4956-92D3-EFFA56C680C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeeYouIn", "SeeYouIn\SeeYouIn\SeeYouIn.csproj", "{480B3B80-1B97-4956-92D3-EFFA56C680C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

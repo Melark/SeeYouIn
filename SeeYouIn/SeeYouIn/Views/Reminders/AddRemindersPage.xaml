@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:SeeYouIn.ViewModels"
+             x:Class="SeeYouIn.Views.Reminders.AddRemindersPage">
+    <ContentPage.BindingContext>
+        <vm:AddReminderPageViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Title"/>
+            <Entry Text="{Binding ReminderTitle,Mode=TwoWay}"/>
+            <Label Text="Body"/>
+            <Entry Text="{Binding ReminderText}"/>
+            <DatePicker Date="{Binding ReminderDate,Mode=TwoWay}"/>
+            <Button Text="Add Reminder" Command="{Binding AddCommand}"/>
+            <Button Text="Cancel" Command="{Binding CancelCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
