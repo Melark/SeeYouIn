@@ -83,6 +83,7 @@ namespace SeeYouIn.ViewModels
     public ICommand CancelCommand => new Command(async () =>
     {
       await PopupNavigation.Instance.PopAsync();
+      MessagingCenter.Send<AddReminderPageViewModel>(this, "ReminderAdded");
     });
     #endregion
 

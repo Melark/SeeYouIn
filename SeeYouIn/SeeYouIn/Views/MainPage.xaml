@@ -8,7 +8,7 @@
     <pages:MainPageMaster x:Name="MasterPage" />
   </MasterDetailPage.Master>
   <MasterDetailPage.Detail>
-    <NavigationPage>
+    <NavigationPage BarBackgroundColor="{StaticResource PrimaryColor}">
       <x:Arguments>
         <reminderPages:MyRemindersPage/>
       </x:Arguments>

@@ -1464,6 +1464,9 @@ namespace SeeYouIn.Droid
 			// aapt resource value: 0x7F0B0041
 			public const int secondary_text_disabled_material_light = 2131427393;
 			
+			// aapt resource value: 0x7F050006
+			public const int splash_background = 2131034118;
+			
 			// aapt resource value: 0x7F0B0042
 			public const int switch_thumb_disabled_material_dark = 2131427394;
 			
@@ -2246,6 +2249,9 @@ namespace SeeYouIn.Droid
 			// aapt resource value: 0x7F010002
 			public const int icon = 2130771970;
 			
+			// aapt resource value: 0x7F010003
+			public const int ic_ac_unit = 2130771971;
+			
 			// aapt resource value: 0x7F020053
 			public const int ic_audiotrack_dark = 2130837587;
 			
@@ -2779,6 +2785,9 @@ namespace SeeYouIn.Droid
 			
 			// aapt resource value: 0x7F020065
 			public const int notify_panel_notification_icon_bg = 2130837605;
+			
+			// aapt resource value: 0x7F010004
+			public const int SplashScreenDrawable = 2130771972;
 			
 			static Drawable()
 			{
@@ -3644,7 +3653,10 @@ namespace SeeYouIn.Droid
 			public const int icon_round = 2130968579;
 			
 			// aapt resource value: 0x7F040004
-			public const int launcher_foreground = 2130968580;
+			public const int ic_launcher = 2130968580;
+			
+			// aapt resource value: 0x7F040005
+			public const int launcher_foreground = 2130968581;
 			
 			static Mipmap()
 			{
@@ -4355,6 +4367,15 @@ namespace SeeYouIn.Droid
 			
 			// aapt resource value: 0x7F060003
 			public const int MainTheme_Base = 2131099651;
+			
+			// aapt resource value: 0x7F060006
+			public const int MyTheme = 2131099654;
+			
+			// aapt resource value: 0x7F060005
+			public const int MyTheme_Base = 2131099653;
+			
+			// aapt resource value: 0x7F060007
+			public const int MyTheme_Splash = 2131099655;
 			
 			// aapt resource value: 0x7F08001F
 			public const int Platform_AppCompat = 2131230751;

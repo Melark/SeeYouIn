@@ -25,12 +25,12 @@
                                 <StackLayout Padding="10" Orientation="Horizontal">
                                     <Label Text="{Binding Title}"  FontSize="Large"/>
                                     <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" >
-                                        <Label Text="&#xf044;" Style="{StaticResource FontAwesome}" FontSize="Large" HorizontalOptions="End" VerticalOptions="Center">
+                                        <Label Text="&#xf044;" Style="{StaticResource FontAwesome}" FontSize="Large" HorizontalOptions="End" VerticalOptions="Center" TextColor="{StaticResource AccentColor}">
                                             <Label.GestureRecognizers>
                                                 <TapGestureRecognizer Command="{Binding Path=BindingContext.EditReminderCommand, Source={x:Reference mainContainer}}" CommandParameter="{Binding}"/>
                                             </Label.GestureRecognizers>
                                         </Label>
-                                        <Label Text="&#xf2ed;" Style="{StaticResource FontAwesome}" FontSize="Large" VerticalOptions="Center" Margin="20,0,0,0">
+                                        <Label Text="&#xf2ed;" Style="{StaticResource FontAwesome}" FontSize="Large" VerticalOptions="Center" Margin="20,0,0,0" TextColor="{StaticResource AccentColor}">
                                             <Label.GestureRecognizers>
                                                 <TapGestureRecognizer Command="{Binding Path=BindingContext.RemoveReminderCommand, Source={x:Reference mainContainer}}" CommandParameter="{Binding}"/>
                                             </Label.GestureRecognizers>

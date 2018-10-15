@@ -31,10 +31,9 @@ namespace SeeYouIn.Views
       {
         MenuItems = new ObservableCollection<MainPageMenuItem>(new[]
         {
-                    new MainPageMenuItem { Id = 0, Title = "My Reminders" ,TargetType = typeof(MyRemindersPage)},
-                    new MainPageMenuItem { Id = 1, Title = "Add Reminders" ,TargetType = typeof(AddRemindersPage)},
-                    new MainPageMenuItem { Id = 2, Title = "Settings",TargetType = typeof(SettingsPage), Enabled = false },
-                    new MainPageMenuItem { Id = 3, Title = "About" ,TargetType = typeof(AboutPage)}
+                    new MainPageMenuItem { Id = 0, Title = "My Reminders" ,TargetType = typeof(MyRemindersPage), FontAwesomeIconText = "\uf073"},
+                    new MainPageMenuItem { Id = 1, Title = "Settings",TargetType = typeof(SettingsPage), Enabled = false , FontAwesomeIconText = "\uf013"},
+                    new MainPageMenuItem { Id = 2, Title = "About" ,TargetType = typeof(AboutPage), FontAwesomeIconText = "\uf059"}
                 });
       }
 

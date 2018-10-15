@@ -27,5 +27,4 @@ C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn\obj\Debug\netstandard2.0\Views\Assisting\Sett
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn\obj\Debug\netstandard2.0\Views\MainPageMaster.xaml.g.cs
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn\obj\Debug\netstandard2.0\Views\Reminders\AddRemindersPage.xaml.g.cs
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn\obj\Debug\netstandard2.0\XamlC.stamp
-C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn\obj\Debug\netstandard2.0\SeeYouIn.csprojAssemblyReference.cache
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn\obj\Debug\netstandard2.0\Views\Reminders\EditReminderPage.xaml.g.cs

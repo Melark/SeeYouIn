@@ -3,13 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SeeYouIn.Views.MainPageMaster"
              Title="Master">
-  <StackLayout>
+  <StackLayout BackgroundColor="{StaticResource TertiaryColor}">
     <ListView x:Name="MenuItemsListView"
               SeparatorVisibility="None"
               HasUnevenRows="true"
               ItemsSource="{Binding MenuItems}">
       <ListView.Header>
-        <Grid BackgroundColor="#03A9F4">
+        <Grid BackgroundColor="{StaticResource PrimaryColor}">
           <Grid.ColumnDefinitions>
             <ColumnDefinition Width="10"/>
             <ColumnDefinition Width="*"/>
@@ -21,21 +21,24 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="10"/>
           </Grid.RowDefinitions>
-          <Label
-              Grid.Column="1"
-              Grid.Row="2"
+                    <StackLayout Padding="20,15"
+                        Grid.Column="1"
+              Grid.Row="2">
+                        <Label
               Text="Countdown To"
               Style="{DynamicResource SubtitleStyle}"/>
-        </Grid>
+                    </StackLayout>
+                </Grid>
       </ListView.Header>
       <ListView.ItemTemplate>
         <DataTemplate>
           <ViewCell>
-            <StackLayout Padding="15,10" HorizontalOptions="FillAndExpand">
-              <Label VerticalOptions="FillAndExpand" 
+            <StackLayout Padding="20,15" HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+                            <Label Text="{Binding FontAwesomeIconText }" Style="{StaticResource FontAwesome}" FontSize="Large" VerticalTextAlignment="Center" TextColor="{StaticResource AccentColor}"/>
+                            <Label VerticalOptions="FillAndExpand" 
                     VerticalTextAlignment="Center" 
                     Text="{Binding Title}" 
-                    FontSize="20"/>
+                    FontSize="20" TextColor="{StaticResource PrimaryColor}"/>
             </StackLayout>
           </ViewCell>
         </DataTemplate>

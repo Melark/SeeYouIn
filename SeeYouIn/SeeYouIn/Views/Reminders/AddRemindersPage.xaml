@@ -9,7 +9,7 @@
         <vm:AddReminderPageViewModel/>
     </pages:PopupPage.BindingContext>
     <pages:PopupPage.Content>
-        <Frame BackgroundColor="#607D8B" >
+        <Frame BackgroundColor="{StaticResource PrimaryColor}" >
             <StackLayout Style="{StaticResource InnerStack}">
                 <Label Text="Add Reminder" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold" TextColor="WhiteSmoke"/>
                 <StackLayout>

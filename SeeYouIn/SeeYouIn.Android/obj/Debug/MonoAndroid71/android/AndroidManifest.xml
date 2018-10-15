@@ -4,8 +4,9 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <application android:label="SeeYouIn.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="SeeYouIn" android:theme="@style/MainTheme" android:name="md51127d8f4c3d163bb73b569924d356f29.MainActivity">
+  <application android:label="SeeYouIn.Android" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:configChanges="orientation|screenSize" android:label="SeeYouIn" android:theme="@style/MainTheme" android:name="md51127d8f4c3d163bb73b569924d356f29.MainActivity" />
+    <activity android:icon="@mipmap/ic_launcher" android:label="MVP" android:theme="@style/MyTheme.Splash" android:name="md51127d8f4c3d163bb73b569924d356f29.SplashActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

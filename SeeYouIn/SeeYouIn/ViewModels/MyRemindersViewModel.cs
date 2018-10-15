@@ -73,7 +73,13 @@ namespace SeeYouIn.ViewModels
       {
         return new Command(async () =>
         {
+          MessagingCenter.Subscribe<AddReminderPageViewModel>(this, "ReminderAdded", (sender) =>
+          {
+            ReloadRemindersCommand.Execute(null);
+            MessagingCenter.Unsubscribe<AddReminderPageViewModel>(this, "ReminderAdded");
+          });
           await PopupNavigation.Instance.PushAsync(new AddRemindersPage());
+
         });
       }
     }
@@ -103,6 +109,7 @@ namespace SeeYouIn.ViewModels
         return new Command((r) =>
         {
           Reminder reminder = (Reminder)r;
+
           Application.Current.MainPage.Navigation.PushModalAsync(new EditReminderPage(reminder));
         });
       }

@@ -15,7 +15,6 @@ namespace SeeYouIn.Views.Reminders
 
     protected override void OnAppearing()
     {
-      // TODO: Move logic to behaviors or something other than this
       base.OnAppearing();
       ViewModel.ReloadRemindersCommand.Execute(null);
     }
