@@ -1,20 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<pages:PopupPage
+    xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup" xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:vm="clr-namespace:SeeYouIn.ViewModels"
-             x:Class="SeeYouIn.Views.Reminders.AddRemindersPage">
-    <ContentPage.BindingContext>
+    xmlns:behaviors="clr-namespace:SeeYouIn.Behaviors"
+             x:Class="SeeYouIn.Views.Reminders.AddRemindersPage" Padding="30,50,30,80" HasSystemPadding="False" >
+    <pages:PopupPage.BindingContext>
         <vm:AddReminderPageViewModel/>
-    </ContentPage.BindingContext>
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Title"/>
-            <Entry Text="{Binding ReminderTitle,Mode=TwoWay}"/>
-            <Label Text="Body"/>
-            <Entry Text="{Binding ReminderText}"/>
-            <DatePicker Date="{Binding ReminderDate,Mode=TwoWay}"/>
-            <Button Text="Add Reminder" Command="{Binding AddCommand}"/>
-            <Button Text="Cancel" Command="{Binding CancelCommand}"/>
-        </StackLayout>
-    </ContentPage.Content>
-</ContentPage>
+    </pages:PopupPage.BindingContext>
+    <pages:PopupPage.Content>
+        <Frame BackgroundColor="#607D8B" >
+            <StackLayout Style="{StaticResource InnerStack}">
+                <Label Text="Add Reminder" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold" TextColor="WhiteSmoke"/>
+                <StackLayout>
+                    <Label Text="Reminder Title" TextColor="WhiteSmoke"/>
+                    <Entry Text="{Binding ReminderTitle.Value ,Mode=TwoWay}" TextColor="WhiteSmoke">
+                        <Entry.Triggers>
+                            <DataTrigger TargetType="Entry" Binding="{Binding ReminderTitle.IsValid,Mode=TwoWay}" Value="False">
+                                <Setter Property="behaviors:LineColorBehavior.LineColor" Value="{StaticResource ErrorColor}" />
+                            </DataTrigger>
+                        </Entry.Triggers>
+                    </Entry>
+                    <Label 
+					Text="{Binding ReminderTitle.Errors}"
+					Style="{StaticResource ValidationErrorLabelStyle}" />
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="Reminder Message" TextColor="WhiteSmoke"/>
+                    <Entry Text="{Binding ReminderText.Value,Mode=TwoWay}" TextColor="WhiteSmoke">
+                        <Entry.Triggers>
+                            <DataTrigger TargetType="Entry" Binding="{Binding ReminderTitle.IsValid,Mode=TwoWay}" Value="False">
+                                <Setter Property="behaviors:LineColorBehavior.LineColor" Value="{StaticResource ErrorColor}" />
+                            </DataTrigger>
+                        </Entry.Triggers>
+                    </Entry>
+                    <Label 
+					Text="{Binding ReminderText.Errors}"
+					Style="{StaticResource ValidationErrorLabelStyle}" />
+                </StackLayout>
+
+                <DatePicker Date="{Binding ReminderDate,Mode=TwoWay}" TextColor="WhiteSmoke"/>
+                <StackLayout VerticalOptions="EndAndExpand">
+                    <Button Text="Add Reminder" Command="{Binding AddCommand}"  TextColor="#607D8B"/>
+                    <Button Text="Cancel" Command="{Binding CancelCommand}" VerticalOptions="EndAndExpand" TextColor="#607D8B"/>
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+    </pages:PopupPage.Content>
+</pages:PopupPage>

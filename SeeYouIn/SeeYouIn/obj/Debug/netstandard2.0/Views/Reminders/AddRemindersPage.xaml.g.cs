@@ -14,7 +14,7 @@ namespace SeeYouIn.Views.Reminders {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Reminders\\AddRemindersPage.xaml")]
-    public partial class AddRemindersPage : global::Xamarin.Forms.ContentPage {
+    public partial class AddRemindersPage : global::Rg.Plugins.Popup.Pages.PopupPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {

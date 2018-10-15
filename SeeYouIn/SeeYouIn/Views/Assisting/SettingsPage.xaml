@@ -8,7 +8,16 @@
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
-            <Button Text="Remove All Notifications" Command="{Binding RemoveAllNotificationsCommand}" />
+            <StackLayout Style="{StaticResource InnerStack}" Orientation="Horizontal">
+                <Label Text="Allow Notification Vibrate"/>
+                <Switch HorizontalOptions="EndAndExpand" IsEnabled="False"/>
+            </StackLayout>
+            <StackLayout Style="{StaticResource InnerStack}">
+                <Button Text="Remove All Notifications" Command="{Binding RemoveAllNotificationsCommand}" />
+            </StackLayout>
+            <StackLayout Style="{StaticResource InnerStack}">
+                <Button Text="Reset Database" Command="{Binding ResetDatabaseCommand}" />
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

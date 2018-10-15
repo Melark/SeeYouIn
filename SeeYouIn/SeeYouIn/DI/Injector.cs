@@ -13,8 +13,9 @@ namespace SeeYouIn.DI
     static Injector()
     {
       _container = new UnityContainer();
-      _container.RegisterType<IReminderService, ReminderRepository>();
-      _container.RegisterType<INotificationService, NotificationService>();
+      _container.RegisterType<IReminderLocalService, ReminderRepository>();
+      _container.RegisterType<INotificationLinkLocalService, NotificationLinkRepository>();
+      _container.RegisterType<IReminderService, ReminderService>();
     }
 
     public static IUnityContainer Container { get { return _container; } }

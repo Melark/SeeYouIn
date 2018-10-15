@@ -1,6 +1,7 @@
 ﻿using SeeYouIn.DI;
 using SeeYouIn.Interfaces.LocalDB;
 using SeeYouIn.Interfaces.Notifications;
+using SeeYouIn.LocalDB.Context;
 using SeeYouIn.ViewModels.Base;
 using System.Windows.Input;
 using Unity;
@@ -11,13 +12,13 @@ namespace SeeYouIn.ViewModels
   public class SettingsViewModel : BaseViewModel
   {
 
-    INotificationService NotificationService { get; set; }
-    IReminderService ReminderService { get; set; }
+    IReminderService NotificationService { get; set; }
+    IReminderLocalService ReminderService { get; set; }
 
     public SettingsViewModel()
     {
-      NotificationService = Injector.Container.Resolve<INotificationService>();
-      ReminderService = Injector.Container.Resolve<IReminderService>();
+      NotificationService = Injector.Container.Resolve<IReminderService>();
+      ReminderService = Injector.Container.Resolve<IReminderLocalService>();
     }
 
     public ICommand RemoveAllNotificationsCommand
@@ -32,6 +33,18 @@ namespace SeeYouIn.ViewModels
           {
             await ReminderService.RemoveReminderAsync(item);
           }
+        });
+      }
+    }
+
+    public ICommand ResetDatabaseCommand
+    {
+      get
+      {
+        return new Command(() =>
+        {
+          SeeYouDbContext seeYouDbContext = new SeeYouDbContext();
+          seeYouDbContext.ResetDB();
         });
       }
     }

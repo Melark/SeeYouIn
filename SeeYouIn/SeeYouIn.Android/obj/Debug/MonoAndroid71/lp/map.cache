@@ -19,6 +19,8 @@ Microsoft.Extensions.Primitives
 Plugin.Notifications.Abstractions
 Plugin.Notifications
 Remotion.Linq
+Rg.Plugins.Popup
+Rg.Plugins.Popup.Droid
 SeeYouIn
 SQLite-net
 SQLitePCLRaw.batteries_green

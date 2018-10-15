@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SeeYouIn.LocalDB.Repositories
 {
-  public class ReminderRepository : IReminderService
+  public class ReminderRepository : IReminderLocalService
   {
     private readonly SeeYouDbContext _databaseContext;
 

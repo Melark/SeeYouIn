@@ -1,8 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:behaviors="clr-namespace:SeeYouIn.Behaviors"
              x:Class="SeeYouIn.App">
     <Application.Resources>
 
+        <Color x:Key="ErrorColor">Red</Color>
+        <Color x:Key="BlackColor">Black</Color> 
+
+        <OnPlatform x:Key="FontAwesomeTTFName" x:TypeArguments="x:String" Android="fa-regular-400.ttf#Font Awesome 5 Free Regular" iOS="Font Awesome 5 Free" WinPhone="Assets/fa-regular-400.ttf#Font Awesome 5 Free" />
+        
+        <Style x:Key="FontAwesome" TargetType="Label">
+            <Setter Property="FontFamily" Value="{StaticResource FontAwesomeTTFName}"/>
+        </Style>
+
+        <Style x:Key="FontAwesomeButton" TargetType="Button">
+            <Setter Property="FontFamily" Value="{StaticResource FontAwesomeTTFName}"/>
+            <Setter Property="FontSize" Value="Large"/>
+        </Style>
+
+        <Style x:Key="InnerStack" TargetType="StackLayout">
+            <Setter Property="Padding" Value="10"/>
+        </Style>
+
+        <Style x:Key="EntryStyle" TargetType="{x:Type Entry}">
+            <Setter Property="behaviors:LineColorBehavior.ApplyLineColor"
+            Value="True" />
+            <Setter Property="behaviors:LineColorBehavior.LineColor"
+            Value="{StaticResource BlackColor}" />
+        </Style>
+
+        <Style x:Key="ValidationErrorLabelStyle"
+                   TargetType="{x:Type Label}">
+            <Setter Property="TextColor"
+                           Value="{StaticResource ErrorColor}" />
+            <Setter Property="FontSize"
+                           Value="Micro" />
+        </Style>
     </Application.Resources>
 </Application>

@@ -2,10 +2,8 @@
 <Paths>
   <Jars>
     <Jar>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\1\jl\formsviewgroup.jar</Jar>
-    <Jar>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\43\jl\bin\classes.jar</Jar>
-    <Jar>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\44\jl\support-annotations.jar</Jar>
     <Jar>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\45\jl\bin\classes.jar</Jar>
-    <Jar>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\46\jl\bin\classes.jar</Jar>
+    <Jar>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\46\jl\support-annotations.jar</Jar>
     <Jar>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\47\jl\bin\classes.jar</Jar>
     <Jar>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\48\jl\bin\classes.jar</Jar>
     <Jar>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\49\jl\bin\classes.jar</Jar>
@@ -18,49 +16,51 @@
     <Jar>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\56\jl\bin\classes.jar</Jar>
     <Jar>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\57\jl\bin\classes.jar</Jar>
     <Jar>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\58\jl\bin\classes.jar</Jar>
-    <Jar>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\63\jl\bin\classes.jar</Jar>
+    <Jar>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\59\jl\bin\classes.jar</Jar>
+    <Jar>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\60\jl\bin\classes.jar</Jar>
+    <Jar>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\65\jl\bin\classes.jar</Jar>
   </Jars>
   <ResolvedResourceDirectories>
     <ResolvedResourceDirectory>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\19\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\23\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\24\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\25\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\26\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\27\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\48\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\51\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\52\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\28\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\29\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\50\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\53\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\54\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\55\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\56\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\57\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\63\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\59\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\65\jl\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\\Debug\MonoAndroid71\lp\19\jl\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\\Debug\MonoAndroid71\lp\23\jl\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\\Debug\MonoAndroid71\lp\24\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\\Debug\MonoAndroid71\lp\25\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\\Debug\MonoAndroid71\lp\26\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\\Debug\MonoAndroid71\lp\27\jl\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\\Debug\MonoAndroid71\lp\52\jl\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\\Debug\MonoAndroid71\lp\63\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\\Debug\MonoAndroid71\lp\28\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\\Debug\MonoAndroid71\lp\29\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\\Debug\MonoAndroid71\lp\54\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\\Debug\MonoAndroid71\lp\65\jl\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
     <ResolvedResourceDirectoryStamp>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\19.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\23.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\24.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\25.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\26.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\27.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\48.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\51.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\52.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\28.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\29.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\50.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\53.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\54.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\55.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\56.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\57.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\63.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\59.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\lp\65.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

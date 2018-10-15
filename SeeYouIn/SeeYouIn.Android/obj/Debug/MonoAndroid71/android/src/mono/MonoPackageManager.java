@@ -128,6 +128,8 @@ class MonoPackageManager_Resources {
 		"Plugin.Notifications.Abstractions.dll",
 		"Plugin.Notifications.dll",
 		"Remotion.Linq.dll",
+		"Rg.Plugins.Popup.dll",
+		"Rg.Plugins.Popup.Droid.dll",
 		"SeeYouIn.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_green.dll",

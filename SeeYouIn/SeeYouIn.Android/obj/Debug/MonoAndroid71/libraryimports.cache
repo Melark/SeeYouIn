@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <ManifestDocuments>
-    <ManifestDocument>obj\\Debug\MonoAndroid71\lp\43\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\\Debug\MonoAndroid71\lp\45\jl\AndroidManifest.xml</ManifestDocument>
-    <ManifestDocument>obj\\Debug\MonoAndroid71\lp\46\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\\Debug\MonoAndroid71\lp\47\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\\Debug\MonoAndroid71\lp\48\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\\Debug\MonoAndroid71\lp\49\jl\AndroidManifest.xml</ManifestDocument>
@@ -16,16 +14,16 @@
     <ManifestDocument>obj\\Debug\MonoAndroid71\lp\56\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\\Debug\MonoAndroid71\lp\57\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\\Debug\MonoAndroid71\lp\58\jl\AndroidManifest.xml</ManifestDocument>
-    <ManifestDocument>obj\\Debug\MonoAndroid71\lp\63\jl\AndroidManifest.xml</ManifestDocument>
-    <ManifestDocument>obj\\Debug\MonoAndroid71\lp\63\jl\aapt\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\\Debug\MonoAndroid71\lp\59\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\\Debug\MonoAndroid71\lp\60\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\\Debug\MonoAndroid71\lp\65\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\\Debug\MonoAndroid71\lp\65\jl\aapt\AndroidManifest.xml</ManifestDocument>
   </ManifestDocuments>
   <NativeLibraries />
   <Jars>
     <Jar>obj\\Debug\MonoAndroid71\lp\1\jl\formsviewgroup.jar</Jar>
-    <Jar>obj\\Debug\MonoAndroid71\lp\43\jl\bin\classes.jar</Jar>
-    <Jar>obj\\Debug\MonoAndroid71\lp\44\jl\support-annotations.jar</Jar>
     <Jar>obj\\Debug\MonoAndroid71\lp\45\jl\bin\classes.jar</Jar>
-    <Jar>obj\\Debug\MonoAndroid71\lp\46\jl\bin\classes.jar</Jar>
+    <Jar>obj\\Debug\MonoAndroid71\lp\46\jl\support-annotations.jar</Jar>
     <Jar>obj\\Debug\MonoAndroid71\lp\47\jl\bin\classes.jar</Jar>
     <Jar>obj\\Debug\MonoAndroid71\lp\48\jl\bin\classes.jar</Jar>
     <Jar>obj\\Debug\MonoAndroid71\lp\49\jl\bin\classes.jar</Jar>
@@ -38,6 +36,8 @@
     <Jar>obj\\Debug\MonoAndroid71\lp\56\jl\bin\classes.jar</Jar>
     <Jar>obj\\Debug\MonoAndroid71\lp\57\jl\bin\classes.jar</Jar>
     <Jar>obj\\Debug\MonoAndroid71\lp\58\jl\bin\classes.jar</Jar>
-    <Jar>obj\\Debug\MonoAndroid71\lp\63\jl\bin\classes.jar</Jar>
+    <Jar>obj\\Debug\MonoAndroid71\lp\59\jl\bin\classes.jar</Jar>
+    <Jar>obj\\Debug\MonoAndroid71\lp\60\jl\bin\classes.jar</Jar>
+    <Jar>obj\\Debug\MonoAndroid71\lp\65\jl\bin\classes.jar</Jar>
   </Jars>
 </Paths>

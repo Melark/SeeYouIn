@@ -1,5 +1,6 @@
 ﻿using SeeYouIn.DI;
 using SeeYouIn.Interfaces.LocalDB;
+using SeeYouIn.Interfaces.Notifications;
 using SeeYouIn.Models;
 using SeeYouIn.Services;
 using SeeYouIn.ViewModels.Base;
@@ -28,11 +29,14 @@ namespace SeeYouIn.ViewModels
       }
     }
 
-    private IReminderService ReminderService;
+    private IReminderLocalService ReminderService;
+    private IReminderService NotificationService;
 
     public MainPageViewModel()
     {
-      ReminderService = Injector.Container.Resolve<IReminderService>();
+      ReminderService = Injector.Container.Resolve<IReminderLocalService>();
+      NotificationService = Injector.Container.Resolve<IReminderService>();
+
       InitializeCommand.Execute(null);
     }
 

@@ -37,6 +37,7 @@ C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\bin\Debug\Mono.Android.pdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\bin\Debug\Mono.Security.pdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\bin\Debug\mscorlib.pdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\bin\Debug\Plugin.Notifications.Abstractions.pdb
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\bin\Debug\Rg.Plugins.Popup.pdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\bin\Debug\System.ComponentModel.Composition.pdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\bin\Debug\System.ComponentModel.DataAnnotations.pdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\bin\Debug\System.Core.pdb
@@ -65,6 +66,7 @@ C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\bin\Debug\Xamarin.Forms.Core.pdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\bin\Debug\FormsViewGroup.dll.mdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\bin\Debug\Plugin.Notifications.dll.mdb
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\bin\Debug\Rg.Plugins.Popup.Droid.dll.mdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\bin\Debug\SeeYouIn.dll.mdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\bin\Debug\SQLite-net.dll.mdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
@@ -74,6 +76,7 @@ C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\linksrc\Commo
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\linksrc\Mono.Android.pdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\linksrc\mscorlib.pdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\linksrc\Plugin.Notifications.Abstractions.pdb
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\linksrc\Rg.Plugins.Popup.pdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\linksrc\System.Core.pdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\linksrc\System.pdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\linksrc\System.IO.Compression.pdb
@@ -103,12 +106,14 @@ C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\linksrc\Mono.
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\linksrc\System.Numerics.Vectors.pdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\linksrc\FormsViewGroup.dll.mdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\linksrc\Plugin.Notifications.dll.mdb
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\linksrc\Rg.Plugins.Popup.Droid.dll.mdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\linksrc\SeeYouIn.dll.mdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\linksrc\SQLite-net.dll.mdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\linksrc\XamarinShortcutBadger.dll.mdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\FormsViewGroup.dll.mdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\Plugin.Notifications.dll.mdb
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\Rg.Plugins.Popup.Droid.dll.mdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\SeeYouIn.dll.mdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\SQLite-net.dll.mdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
@@ -118,6 +123,7 @@ C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\asset
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\Mono.Security.pdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\mscorlib.pdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\Plugin.Notifications.Abstractions.pdb
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\Rg.Plugins.Popup.pdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\SeeYouIn.Android.pdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\System.ComponentModel.Composition.pdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\System.ComponentModel.DataAnnotations.pdb
@@ -150,6 +156,7 @@ C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\linksrc\SeeYo
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\bin\Debug\SeeYouIn.dll.mdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\linksrc\FormsViewGroup.dll.mdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\linksrc\Plugin.Notifications.dll.mdb
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\linksrc\Rg.Plugins.Popup.Droid.dll.mdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\linksrc\SeeYouIn.dll.mdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\linksrc\SQLite-net.dll.mdb
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

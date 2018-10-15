@@ -23,6 +23,8 @@ C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\asset
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\Plugin.Notifications.Abstractions.dll
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\Plugin.Notifications.dll
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\Remotion.Linq.dll
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\Rg.Plugins.Popup.dll
+C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\Rg.Plugins.Popup.Droid.dll
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\SeeYouIn.dll
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\SQLite-net.dll
 C:\_GIT\SeeYouIn\SeeYouIn\SeeYouIn.Android\obj\Debug\MonoAndroid71\android\assets\SQLitePCLRaw.batteries_green.dll

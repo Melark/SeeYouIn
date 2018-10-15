@@ -1,7 +1,9 @@
-﻿using SeeYouIn.DI;
+﻿using Rg.Plugins.Popup.Services;
+using SeeYouIn.DI;
 using SeeYouIn.Interfaces.LocalDB;
 using SeeYouIn.Interfaces.Notifications;
 using SeeYouIn.Models;
+using SeeYouIn.ValidationRules;
 using SeeYouIn.ViewModels.Base;
 using System;
 using System.Windows.Input;
@@ -12,11 +14,13 @@ namespace SeeYouIn.ViewModels
 {
   public class AddReminderPageViewModel : BaseViewModel
   {
-    private IReminderService ReminderService;
-    private INotificationService NotificationService;
+    #region Services
+    private IReminderService ReminderService; 
+    #endregion
 
-    private string reminderText;
-    public string ReminderText
+    #region Properties
+    private ValidatableObject<string> reminderText = new ValidatableObject<string>();
+    public ValidatableObject<string> ReminderText
     {
       get => reminderText;
       set
@@ -26,8 +30,8 @@ namespace SeeYouIn.ViewModels
       }
     }
 
-    private string reminderTitle;
-    public string ReminderTitle
+    private ValidatableObject<string> reminderTitle = new ValidatableObject<string>();
+    public ValidatableObject<string> ReminderTitle
     {
       get { return reminderTitle; }
       set
@@ -46,31 +50,61 @@ namespace SeeYouIn.ViewModels
         reminderDate = value;
         OnPropertyChanged();
       }
-    }
+    } 
+    #endregion
 
     public AddReminderPageViewModel()
     {
       ReminderService = Injector.Container.Resolve<IReminderService>();
-      NotificationService = Injector.Container.Resolve<INotificationService>();
       ReminderDate = DateTime.Now;
+      AddPropertyValidations();
     }
+    #region Commands
 
     public ICommand AddCommand => new Command(async () =>
     {
-      Reminder reminder = new Reminder();
-      reminder.Title = ReminderTitle;
-      reminder.Body = ReminderText;
-      reminder.ETA = ReminderDate;
+      if (ValidateProperties())
+      {
+        try
+        {
+          Notification notification = new Notification(ReminderTitle.Value, ReminderText.Value, ReminderDate, Enums.NotificationFrequency.DAILY);
 
-      await ReminderService.InsertReminderAsync(reminder);
-      await NotificationService.RegisterNotification(new Notification(ReminderTitle, ReminderText, ReminderDate, Enums.NotificationFrequency.DAILY));
+          await ReminderService.RegisterNotification(new Notification(ReminderTitle.Value, ReminderText.Value, ReminderDate, Enums.NotificationFrequency.DAILY));
 
-      ReminderText = "";
-      ReminderText = "";
+          CancelCommand.Execute(null);
+        }
+        catch (Exception ee)
+        {
+          return;
+        }
+      }
     });
 
-    public ICommand CancelCommand => new Command(() =>
+    public ICommand CancelCommand => new Command(async () =>
     {
+      await PopupNavigation.Instance.PopAsync();
     });
+    #endregion
+
+    #region Functions
+
+    private bool ValidateProperties()
+    {
+      return ReminderTitle.Validate() && ReminderText.Validate();
+    }
+
+    private void AddPropertyValidations()
+    {
+      ReminderTitle.Validations.Add(new IsNotNullOrEmptyRule<string>
+      {
+        ValidationMessage = "A title is required."
+      });
+
+      ReminderText.Validations.Add(new IsNotNullOrEmptyRule<string>
+      {
+        ValidationMessage = "A message is required"
+      });
+    } 
+    #endregion
   }
 }
