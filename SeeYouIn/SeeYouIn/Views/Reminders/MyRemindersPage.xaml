@@ -4,37 +4,48 @@
              xmlns:vm="clr-namespace:SeeYouIn.ViewModels"
              x:Class="SeeYouIn.Views.Reminders.MyRemindersPage"
              Title="My Reminders"
-             x:Name="mainContainer">
+             x:Name="mainContainer"
+             BackgroundColor="{StaticResource TertiaryColor}">
     <ContentPage.BindingContext>
         <vm:MyRemindersViewModel/>
     </ContentPage.BindingContext>
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="+" Command="{Binding AddReminderCommand}"/>
-    </ContentPage.ToolbarItems>
+    <NavigationPage.TitleView>
+        <StackLayout >
+            <StackLayout Padding="10" HorizontalOptions="End" >
+                <Label Text="&#xf067;" Style="{StaticResource FontAwesomeSolid}" FontSize="Large" Margin="0,0,10,0" TextColor="{StaticResource PrimaryTextColor}"/>
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding AddReminderCommand}"/>
+                </StackLayout.GestureRecognizers>
+            </StackLayout>
+        </StackLayout>
+    </NavigationPage.TitleView>
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout IsVisible="{Binding ShouldShowNoRemindersMessage,Mode=TwoWay}">
-                <Label Text="You have no reminders, YET!"/>
-                <Label Text="Add a reminder now in the left drawer"/>
-            </StackLayout>
-            <ListView HasUnevenRows="True" ItemsSource="{Binding ReminderList}" IsVisible="{Binding HasReminders,Mode=TwoWay}">
+            <StackLayout IsVisible="{Binding ShouldShowNoRemindersMessage,Mode=TwoWay}" >
+                <Label Text="&#xf59b;" Style="{StaticResource FontAwesome}" FontSize="35" HorizontalOptions="Center" Margin="0,25,0,10"/>
+                <Label Text="You have no reminders, YET!" HorizontalOptions="Center" FontSize="Large"/>
+                <Label Text="Add a reminder now in the top-right corner" HorizontalOptions="Center" FontSize="Large"/>
+            </StackLayout> 
+            <ListView HasUnevenRows="True" ItemsSource="{Binding ReminderList}" IsVisible="{Binding HasReminders,Mode=TwoWay}" SelectionMode="None">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Frame>
+                            <Frame Margin="0,2,0,0">
                                 <StackLayout Padding="10" Orientation="Horizontal">
                                     <Label Text="{Binding Title}"  FontSize="Large"/>
                                     <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" >
-                                        <Label Text="&#xf044;" Style="{StaticResource FontAwesome}" FontSize="Large" HorizontalOptions="End" VerticalOptions="Center" TextColor="{StaticResource AccentColor}">
-                                            <Label.GestureRecognizers>
+                                        <StackLayout Padding="2">
+                                            <Label Text="&#xf044;" Style="{StaticResource FontAwesome}" FontSize="Large" HorizontalOptions="End" VerticalOptions="Center" TextColor="{StaticResource AccentColor}"/>
+                                            <StackLayout.GestureRecognizers>
                                                 <TapGestureRecognizer Command="{Binding Path=BindingContext.EditReminderCommand, Source={x:Reference mainContainer}}" CommandParameter="{Binding}"/>
-                                            </Label.GestureRecognizers>
-                                        </Label>
-                                        <Label Text="&#xf2ed;" Style="{StaticResource FontAwesome}" FontSize="Large" VerticalOptions="Center" Margin="20,0,0,0" TextColor="{StaticResource AccentColor}">
-                                            <Label.GestureRecognizers>
+                                            </StackLayout.GestureRecognizers>
+                                        </StackLayout>
+                                        <StackLayout Padding="2">
+                                            <Label Text="&#xf2ed;" Style="{StaticResource FontAwesome}" FontSize="Large" VerticalOptions="Center" Margin="20,0,0,0" TextColor="{StaticResource AccentColor}"/>
+                                            <StackLayout.GestureRecognizers>
                                                 <TapGestureRecognizer Command="{Binding Path=BindingContext.RemoveReminderCommand, Source={x:Reference mainContainer}}" CommandParameter="{Binding}"/>
-                                            </Label.GestureRecognizers>
-                                        </Label>
+                                            </StackLayout.GestureRecognizers>
+                                        </StackLayout>
                                     </StackLayout>
                                 </StackLayout>
                             </Frame>

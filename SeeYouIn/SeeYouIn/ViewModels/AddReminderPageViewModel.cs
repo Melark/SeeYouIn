@@ -6,6 +6,7 @@ using SeeYouIn.Models;
 using SeeYouIn.ValidationRules;
 using SeeYouIn.ViewModels.Base;
 using System;
+using System.Collections.Generic;
 using System.Windows.Input;
 using Unity;
 using Xamarin.Forms;
@@ -15,10 +16,14 @@ namespace SeeYouIn.ViewModels
   public class AddReminderPageViewModel : BaseViewModel
   {
     #region Services
-    private IReminderService ReminderService; 
+    private IReminderService ReminderService;
+    private INotificationService NotificationService;
     #endregion
 
     #region Properties
+
+    public List<FrequencyItem> Frequency{get;}
+
     private ValidatableObject<string> reminderText = new ValidatableObject<string>();
     public ValidatableObject<string> ReminderText
     {
@@ -56,8 +61,14 @@ namespace SeeYouIn.ViewModels
     public AddReminderPageViewModel()
     {
       ReminderService = Injector.Container.Resolve<IReminderService>();
+      NotificationService = Injector.Container.Resolve<INotificationService>();
       ReminderDate = DateTime.Now;
       AddPropertyValidations();
+
+      Frequency = new List<FrequencyItem>() {
+        new FrequencyItem(){ Frequency = Enums.NotificationFrequency.MONTHLY, Value = "Monthly"},
+        new FrequencyItem(){ Frequency = Enums.NotificationFrequency.DAILY, Value = "Daily"}
+      };
     }
     #region Commands
 
@@ -105,7 +116,30 @@ namespace SeeYouIn.ViewModels
       {
         ValidationMessage = "A message is required"
       });
-    } 
+    }
+
+    public ICommand PreviewCommand
+    {
+      get
+      {
+        return new Command(() =>
+        {
+          if (ValidateProperties())
+          {
+            try
+            {
+              Notification notification = new Notification(ReminderTitle.Value, ReminderText.Value, ReminderDate, Enums.NotificationFrequency.DAILY);
+              NotificationService.SendSingleNotification(notification);
+            }
+            catch (Exception ee)
+            {
+              return;
+            }
+          }
+          
+        });
+      }
+    }
     #endregion
   }
 }

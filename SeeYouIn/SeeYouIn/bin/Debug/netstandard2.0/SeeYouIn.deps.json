@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "353f7962c983a1e5f8949a664f26df981434c215"
+    "signature": "9176ca0c23268aad1f6f885ef0411e1dfbafc1e2"
   },
   "compilationOptions": {},
   "targets": {
@@ -14,7 +14,7 @@
           "Plugin.Notifications": "4.0.2",
           "Rg.Plugins.Popup": "1.1.4.168",
           "Unity": "5.8.11",
-          "Xamarin.Forms": "3.1.0.697729"
+          "Xamarin.Forms": "3.2.0.871581"
         },
         "runtime": {
           "SeeYouIn.dll": {}
@@ -256,7 +256,7 @@
       },
       "Rg.Plugins.Popup/1.1.4.168": {
         "dependencies": {
-          "Xamarin.Forms": "3.1.0.697729"
+          "Xamarin.Forms": "3.2.0.871581"
         },
         "runtime": {
           "lib/netstandard1.0/Rg.Plugins.Popup.dll": {
@@ -654,7 +654,7 @@
           }
         }
       },
-      "Xamarin.Forms/3.1.0.697729": {
+      "Xamarin.Forms/3.2.0.871581": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
@@ -1084,12 +1084,12 @@
       "path": "unity/5.8.11",
       "hashPath": "unity.5.8.11.nupkg.sha512"
     },
-    "Xamarin.Forms/3.1.0.697729": {
+    "Xamarin.Forms/3.2.0.871581": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-YlFOM9u8onIRxJwYJ3l+O0wFKqzzrDjDrgnoBr1rct+eaQKU77vFydxvTP+WxYlYzR14hYvyLNC65L84+6ke6w==",
-      "path": "xamarin.forms/3.1.0.697729",
-      "hashPath": "xamarin.forms.3.1.0.697729.nupkg.sha512"
+      "sha512": "sha512-1yKOnOHYR1v4Afa5XIkpPfdIG3A3Tu0gT5TX4923xG5DV+8dJw+beSPuLagSJoU33NzV023t73R5iSbMoSF7qQ==",
+      "path": "xamarin.forms/3.2.0.871581",
+      "hashPath": "xamarin.forms.3.2.0.871581.nupkg.sha512"
     }
   }
 }

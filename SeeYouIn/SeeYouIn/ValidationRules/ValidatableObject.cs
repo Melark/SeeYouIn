@@ -11,6 +11,18 @@ namespace SeeYouIn.ValidationRules
     private T _value;
     private bool _isValid;
 
+
+    private bool errorMessageVisible;
+    public bool ErrorMessageVisible
+    {
+      get => errorMessageVisible;
+      set
+      {
+        errorMessageVisible = value;
+        OnPropertyChanged();
+      }
+    }
+
     public List<IValidationRule<T>> Validations => _validations;
 
     public List<string> Errors
@@ -48,6 +60,7 @@ namespace SeeYouIn.ValidationRules
       set
       {
         _isValid = value;
+        ErrorMessageVisible = !value;
         OnPropertyChanged();
       }
     }
@@ -55,6 +68,7 @@ namespace SeeYouIn.ValidationRules
     public ValidatableObject()
     {
       _isValid = true;
+      errorMessageVisible = false;
       _errors = new List<string>();
       _validations = new List<IValidationRule<T>>();
     }

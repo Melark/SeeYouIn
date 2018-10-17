@@ -2687,6 +2687,9 @@ namespace SeeYouIn.Droid
 			// aapt resource value: 0x7F0200E3
 			public const int ic_vol_type_tv_light = 2130837731;
 			
+			// aapt resource value: 0x7F010004
+			public const int imag = 2130771972;
+			
 			// aapt resource value: 0x7F0200E4
 			public const int mr_button_connected_dark = 2130837732;
 			
@@ -2786,8 +2789,8 @@ namespace SeeYouIn.Droid
 			// aapt resource value: 0x7F020065
 			public const int notify_panel_notification_icon_bg = 2130837605;
 			
-			// aapt resource value: 0x7F010004
-			public const int SplashScreenDrawable = 2130771972;
+			// aapt resource value: 0x7F010005
+			public const int SplashScreenDrawable = 2130771973;
 			
 			static Drawable()
 			{

@@ -11,9 +11,9 @@
     <pages:PopupPage.Content>
         <Frame BackgroundColor="{StaticResource PrimaryColor}" >
             <StackLayout Style="{StaticResource InnerStack}">
-                <Label Text="Add Reminder" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold" TextColor="WhiteSmoke"/>
-                <StackLayout>
-                    <Label Text="Reminder Title" TextColor="WhiteSmoke"/>
+                <Label Text="Add Reminder" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold" TextColor="WhiteSmoke" Margin="0,10,0,15"/>
+                <StackLayout Margin="0,10,0,0">
+                    <Label Text="Reminder Title" TextColor="{StaticResource PrimaryTextColor}"  FontSize="Medium"/>
                     <Entry Text="{Binding ReminderTitle.Value ,Mode=TwoWay}" TextColor="WhiteSmoke">
                         <Entry.Triggers>
                             <DataTrigger TargetType="Entry" Binding="{Binding ReminderTitle.IsValid,Mode=TwoWay}" Value="False">
@@ -22,28 +22,36 @@
                         </Entry.Triggers>
                     </Entry>
                     <Label 
-					Text="{Binding ReminderTitle.Errors}"
+					Text="Title Required" IsVisible="{Binding ReminderTitle.ErrorMessageVisible,Mode=TwoWay}"
 					Style="{StaticResource ValidationErrorLabelStyle}" />
                 </StackLayout>
-
                 <StackLayout>
-                    <Label Text="Reminder Message" TextColor="WhiteSmoke"/>
+                    <Label Text="Reminder Message" TextColor="{StaticResource PrimaryTextColor}"  FontSize="Medium"/>
                     <Entry Text="{Binding ReminderText.Value,Mode=TwoWay}" TextColor="WhiteSmoke">
                         <Entry.Triggers>
-                            <DataTrigger TargetType="Entry" Binding="{Binding ReminderTitle.IsValid,Mode=TwoWay}" Value="False">
+                            <DataTrigger TargetType="Entry" Binding="{Binding ReminderText.IsValid,Mode=TwoWay}" Value="False">
                                 <Setter Property="behaviors:LineColorBehavior.LineColor" Value="{StaticResource ErrorColor}" />
                             </DataTrigger>
                         </Entry.Triggers>
                     </Entry>
                     <Label 
-					Text="{Binding ReminderText.Errors}"
+					Text="Message Required"  IsVisible="{Binding ReminderText.ErrorMessageVisible,Mode=TwoWay}"
 					Style="{StaticResource ValidationErrorLabelStyle}" />
                 </StackLayout>
-
-                <DatePicker Date="{Binding ReminderDate,Mode=TwoWay}" TextColor="WhiteSmoke"/>
-                <StackLayout VerticalOptions="EndAndExpand">
-                    <Button Text="Add Reminder" Command="{Binding AddCommand}"  TextColor="#607D8B"/>
-                    <Button Text="Cancel" Command="{Binding CancelCommand}" VerticalOptions="EndAndExpand" TextColor="#607D8B"/>
+                <StackLayout>
+                    <Label Text="Reminder Date" TextColor="{StaticResource PrimaryTextColor}"  FontSize="Medium"/>
+                    <DatePicker Date="{Binding ReminderDate,Mode=TwoWay}" TextColor="WhiteSmoke"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="10">
+                    <Label Text="Preview Notification" TextColor="{StaticResource PrimaryTextColor}"/>
+                    <Label Text="&#xf06e;" Style="{StaticResource FontAwesomeSolid}" TextColor="{StaticResource PrimaryTextColor}"/>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding PreviewCommand}"/>
+                    </StackLayout.GestureRecognizers>
+                </StackLayout>
+                <StackLayout VerticalOptions="EndAndExpand" Spacing="10">
+                    <Button Text="Add Reminder" Command="{Binding AddCommand}"  TextColor="{StaticResource PrimaryTextColor}" BackgroundColor="{StaticResource AccentColor}"/>
+                    <Button Text="Cancel" Command="{Binding CancelCommand}" VerticalOptions="EndAndExpand" TextColor="{StaticResource PrimaryTextColor}" BackgroundColor="{StaticResource AccentColor}"/>
                 </StackLayout>
             </StackLayout>
         </Frame>

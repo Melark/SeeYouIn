@@ -9,32 +9,15 @@
               HasUnevenRows="true"
               ItemsSource="{Binding MenuItems}">
       <ListView.Header>
-        <Grid BackgroundColor="{StaticResource PrimaryColor}">
-          <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="10"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="10"/>
-          </Grid.ColumnDefinitions>
-          <Grid.RowDefinitions>
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="80"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="10"/>
-          </Grid.RowDefinitions>
-                    <StackLayout Padding="20,15"
-                        Grid.Column="1"
-              Grid.Row="2">
-                        <Label
-              Text="Countdown To"
-              Style="{DynamicResource SubtitleStyle}"/>
-                    </StackLayout>
-                </Grid>
+                <StackLayout BackgroundColor="{StaticResource PrimaryColor}">
+                    <Image Source="imag" Aspect="Fill" HeightRequest="250"/>
+                </StackLayout>
       </ListView.Header>
       <ListView.ItemTemplate>
         <DataTemplate>
           <ViewCell>
             <StackLayout Padding="20,15" HorizontalOptions="FillAndExpand" Orientation="Horizontal">
-                            <Label Text="{Binding FontAwesomeIconText }" Style="{StaticResource FontAwesome}" FontSize="Large" VerticalTextAlignment="Center" TextColor="{StaticResource AccentColor}"/>
+                            <Label Text="{Binding FontAwesomeIconText }" Style="{StaticResource FontAwesomeSolid}" FontSize="Large" VerticalTextAlignment="Center" TextColor="{StaticResource AccentColor}" Margin="0,0,10,0"/>
                             <Label VerticalOptions="FillAndExpand" 
                     VerticalTextAlignment="Center" 
                     Text="{Binding Title}" 

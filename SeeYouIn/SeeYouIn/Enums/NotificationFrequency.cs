@@ -6,6 +6,10 @@ namespace SeeYouIn.Enums
 {
   public enum NotificationFrequency
   {
-    DAILY
+    DAILY,
+    MONTHLY,
+    HOURLY,
+    EVERYMINUTE,
+    EVERYSECOND
   }
 }

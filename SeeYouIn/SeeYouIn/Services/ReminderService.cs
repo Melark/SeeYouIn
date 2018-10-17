@@ -49,19 +49,19 @@ namespace SeeYouIn.Services
         TimeSpan timeSpan = new TimeSpan();
         timeSpan = notification.UntilDate.Subtract(DateTime.Now);
 
+
+
         // Todo: Extract to method that takes NotificationFrequency and builds a notification list based on that
         if (notification.FrequencyToSend == Enums.NotificationFrequency.DAILY)
         {
           for (int i = 0; i < timeSpan.Days; i++)
           {
-
-
             Plugin.Notifications.Notification notificationObject = new Plugin.Notifications.Notification
             {
               Title = notification.Title,
-              Message = notification.Body,
+              Message = $"{notification.Body} ({timeSpan.Days - i} Day(s))",
               Vibrate = true,
-              When = TimeSpan.FromMinutes(i)
+              When = TimeSpan.FromDays(i)
             };
             await CrossNotifications.Current.Send(notificationObject);
 

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "815d3b5d169d4992871557229b48d273f2f1e58c"
+    "signature": "9176ca0c23268aad1f6f885ef0411e1dfbafc1e2"
   },
   "compilationOptions": {},
   "targets": {
@@ -12,8 +12,9 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "2.1.3",
           "NETStandard.Library": "2.0.3",
           "Plugin.Notifications": "4.0.2",
+          "Rg.Plugins.Popup": "1.1.4.168",
           "Unity": "5.8.11",
-          "Xamarin.Forms": "3.1.0.697729"
+          "Xamarin.Forms": "3.2.0.871581"
         },
         "runtime": {
           "SeeYouIn.dll": {}
@@ -250,6 +251,17 @@
           "lib/netstandard1.0/Remotion.Linq.dll": {
             "assemblyVersion": "2.2.0.0",
             "fileVersion": "2.2.0.30000"
+          }
+        }
+      },
+      "Rg.Plugins.Popup/1.1.4.168": {
+        "dependencies": {
+          "Xamarin.Forms": "3.2.0.871581"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Rg.Plugins.Popup.dll": {
+            "assemblyVersion": "1.1.4.168",
+            "fileVersion": "1.1.4.168"
           }
         }
       },
@@ -642,7 +654,7 @@
           }
         }
       },
-      "Xamarin.Forms/3.1.0.697729": {
+      "Xamarin.Forms/3.2.0.871581": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
@@ -826,6 +838,13 @@
       "sha512": "sha512-fK/76UmpC0FXBlGDFVPLJHQlDLYnGC+XY3eoDgCgbtrhi0vzbXDQ3n/IYHhqSKqXQfGw/u04A1drWs7rFVkRjw==",
       "path": "remotion.linq/2.2.0",
       "hashPath": "remotion.linq.2.2.0.nupkg.sha512"
+    },
+    "Rg.Plugins.Popup/1.1.4.168": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pARxyFFrnOoCZfRbAiE8v3+8py/sH5SX8NJAjfaydJJO3cm13yNaNw8EelEONJVQY2T0zFhCfZSc4CDjjaSylQ==",
+      "path": "rg.plugins.popup/1.1.4.168",
+      "hashPath": "rg.plugins.popup.1.1.4.168.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_green/1.1.11": {
       "type": "package",
@@ -1065,12 +1084,12 @@
       "path": "unity/5.8.11",
       "hashPath": "unity.5.8.11.nupkg.sha512"
     },
-    "Xamarin.Forms/3.1.0.697729": {
+    "Xamarin.Forms/3.2.0.871581": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-YlFOM9u8onIRxJwYJ3l+O0wFKqzzrDjDrgnoBr1rct+eaQKU77vFydxvTP+WxYlYzR14hYvyLNC65L84+6ke6w==",
-      "path": "xamarin.forms/3.1.0.697729",
-      "hashPath": "xamarin.forms.3.1.0.697729.nupkg.sha512"
+      "sha512": "sha512-1yKOnOHYR1v4Afa5XIkpPfdIG3A3Tu0gT5TX4923xG5DV+8dJw+beSPuLagSJoU33NzV023t73R5iSbMoSF7qQ==",
+      "path": "xamarin.forms/3.2.0.871581",
+      "hashPath": "xamarin.forms.3.2.0.871581.nupkg.sha512"
     }
   }
 }

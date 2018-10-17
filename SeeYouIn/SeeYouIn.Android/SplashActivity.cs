@@ -13,7 +13,7 @@ using Android.Widget;
 
 namespace SeeYouIn.Droid
 {
-  [Activity(Label = "MVP",
+  [Activity(Label = "See You Soon",
         Icon = "@mipmap/ic_launcher",
         Theme = "@style/MyTheme.Splash",
         MainLauncher = true)]

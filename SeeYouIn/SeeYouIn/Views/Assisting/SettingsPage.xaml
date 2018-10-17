@@ -7,11 +7,14 @@
         <vm:SettingsViewModel/>
     </ContentPage.BindingContext>
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Padding="10">
+            <Label FontSize="Large"  Text="Please note: This page is currently an admin page, and the buttons in this page does not have a confirmation dialog. Therefore, not that if you press any of these buttons the effects are irreversable."/>
             <StackLayout Style="{StaticResource InnerStack}" Orientation="Horizontal">
                 <Label Text="Allow Notification Vibrate"/>
                 <Switch HorizontalOptions="EndAndExpand" IsEnabled="False"/>
             </StackLayout>
+            <Label FontSize="Large" Text="At any point in time, if you want to test features and feel you need to 'Clean' the app. Press the buttons like you feel is needed. Their features are self explanatory based on the text on the button"/>
+
             <StackLayout Style="{StaticResource InnerStack}">
                 <Button Text="Remove All Notifications" Command="{Binding RemoveAllNotificationsCommand}" />
             </StackLayout>

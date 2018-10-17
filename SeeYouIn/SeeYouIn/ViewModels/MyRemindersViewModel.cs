@@ -94,8 +94,10 @@ namespace SeeYouIn.ViewModels
           if (alertResult)
           {
             Reminder reminder = (Reminder)r;
+            NotificationService.CancelNotification(reminder.ID);
             ReminderList.Remove(reminder);
             await ReminderService.RemoveReminderAsync(reminder);
+            ReloadRemindersCommand.Execute(null);
           }
 
         });

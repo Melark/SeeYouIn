@@ -16,6 +16,7 @@ namespace SeeYouIn.DI
       _container.RegisterType<IReminderLocalService, ReminderRepository>();
       _container.RegisterType<INotificationLinkLocalService, NotificationLinkRepository>();
       _container.RegisterType<IReminderService, ReminderService>();
+      _container.RegisterType<INotificationService, NotificationService>();
     }
 
     public static IUnityContainer Container { get { return _container; } }

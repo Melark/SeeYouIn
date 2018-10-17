@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="SeeYouIn.Views.Assisting.AboutPage">
+             x:Class="SeeYouIn.Views.Assisting.AboutPage"
+             Title="About">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="10,25,10,0">
+            <Label Text="App Version: 0.1" FontSize="Large" HorizontalOptions="Center"/>
+            <BoxView BackgroundColor="{StaticResource AccentColor}" HeightRequest="1"/>
+            <Label Text="This app is still in Alpha testing and is subject to change anytime soon! Stay tuned for some big things." FontSize="Large" HorizontalOptions="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
